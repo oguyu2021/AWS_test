@@ -12,7 +12,7 @@ set :repo_url, 'https://github.com/oguyu2021/AWS_test'
 set :branch, ENV['BRANCH'] || 'master'
 
 # deploy先のディレクトリ。
-set :deploy_to, '/var/www/アプリケーション名'
+set :deploy_to, '/var/www/achieve'
 
 # シンボリックリンクをはるフォルダ・ファイル
 set :linked_files, %w{.env config/secrets.yml}
